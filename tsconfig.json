@@ -1,0 +1,35 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports" : true,
+    "baseUrl": "src",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "build",
+    "pretty": false,
+    "rootDir": ".",
+    "importHelpers": false,
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2020",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts"
+  ]
+}
